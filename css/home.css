@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* content */
+#content {
+}
+.banner img {
+  width: 100%;
+}
+
+.products {
+  width: 80%;
+  margin: auto;
+}
+.products .title {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.title :before,
+.title:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #b9b4b4;
+  margin: auto;
+}
+.title:before {
+  margin-right: 10px;
+}
+.title p {
+  color: white;
+  font-size: 20px;
+  background-color: #ff6600;
+  margin-right: 30px;
+  padding: 5px 20px;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.item {
+  width: 21%;
+  margin: 0 20px;
+}
+.item a {
+  color: black;
+}
+img.img-item {
+  width: 100%;
+}
+p.price {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+p.new-products {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+}
+p.new-products:before,
+p.new-products:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #b9b4b4;
+  margin: auto;
+}
+p.new-products:before {
+  margin-right: 10px;
+}
+p.new-products:after {
+  margin-left: 10px;
+}
+
+#blogs {
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#main-blog {
+  width: 60%;
+}
+#other-blogs {
+  width: 35%;
+}
+p.blog-title {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+}
+p.blog-title:before,
+p.blog-title:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #b9b4b4;
+  margin: auto;
+}
+p.blog-title:before {
+  margin-right: 10px;
+}
+p.blog-title:after {
+  margin-left: 10px;
+}
+
+.blog-content {
+  width: 100%;
+  display: flex;
+}
+.blog-content img {
+  width: 45%;
+  margin-right: 20px;
+}
+
+.blog-content div {
+  width: 55%;
+}
+.blog-content a {
+  font-size: 20px;
+}
+.blog-content p {
+  font-size: 12px;
+}
+p.content {
+  text-align: justify;
+  font-size: 16px;
+}
+.btn-more {
+  font-size: 15px !important;
+  cursor: pointer;
+  border: 1px solid #b9b4b4;
+  background-color: transparent;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+.list-blogs {
+  background-color: rgba(243, 243, 243, 0.95);
+  border-radius: 10px;
+  border: 1px dashed;
+  padding: 10px 20px;
+}
+.blog {
+  padding: 2px 5px;
+}
+
+.blog a {
+  font-size: 12px;
+}

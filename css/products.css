@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.conten {
+  width: 0;
+  height: 0;
+}
+
+.hinh1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 75%;
+  height: 75%;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.h1 {
+  width: 20%;
+  box-shadow: 3px 3px 3px 3px rgb(136, 134, 134);
+}
+.h1 img {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  border-bottom: 10px solid black;
+  border-top: 50px;
+}
+a {
+  color: #000;
+}
+.center {
+  text-align: center;
+}
